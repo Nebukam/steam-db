@@ -44,7 +44,7 @@ Each file contains some skimmed game infos in the following format:
     // Parent appid if DLC, otherwise empty string
     "parentappid": "", 
     // Features flags
-    "flags": [], 
+    "flags": [2,36,38,29,35,18,41,42,1,9,20], 
     // App tags
     "tags": [ 
         "FPS",
