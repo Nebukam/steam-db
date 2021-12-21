@@ -19,12 +19,12 @@ A massive thank you to their team, without which the Steam game finder app would
 # Repo content
 
 The git is split in three main data bits :
-## [applist.json](url)
-Is a direct dump of the steam API call `http://api.steampowered.com/ISteamApps/GetAppList/v0002/?key=API_KEY&format=json`
+## [applist.json](https://github.com/Nebukam/steam-db/blob/main/applist.json)
+Is a direct dump of the steam API call `http://api.steampowered.com/ISteamApps/GetAppList/v0002/?key=API_KEY&format=json` at the time of update.
   
-## [db.json](url)
+## [db.json](https://github.com/Nebukam/steam-db/blob/main/db.json)
 Is the whole database in a single rather huge file, formatted as follow :
-```json
+```js
 {
     "appid":{
         // app data
@@ -33,9 +33,9 @@ Is the whole database in a single rather huge file, formatted as follow :
 ```
 Each entry is what you can otherwise be individually found through `app/appid/infos.json`
   
-## [Individual app infos](url)
+## [Individual app infos](https://github.com/Nebukam/steam-db/tree/main/app)
 Each file contains some skimmed game infos in the following format:
-```json
+```js
 {
     // Steam app ID
     "appid": 359550,
@@ -137,7 +137,7 @@ Number of games with co-optimus data : `2285`
 
 Number of games with tags : `117323`  
 
-Total number of unique tags : `426` [full list :eye_speech_bubble:](url)
+Total number of unique tags : `426` [full list :eye_speech_bubble:](https://github.com/Nebukam/steam-db/blob/main/tags.json)
 
 Number of games with flags : `110537`  
 
