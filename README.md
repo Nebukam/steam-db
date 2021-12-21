@@ -71,17 +71,17 @@ Each file contains some skimmed game infos in the following format:
     // Co-optimus data (false if couldn't be found)
     "cooptimus": { 
         "url": "https://www.co-optimus.com/game/3480/PC/tom-clancy-s-rainbow-six-siege.html",
-        // Number of players in local play
+        // Max nmber of players in local play
         "local": "0", 
-        // Number of players in online play
+        // Max number of players in online play
         "online": "5", 
-        // Number of players in lan
+        // Max number of players in lan
         "lan": "0", 
-        // Number of players in splitscreen
+        // Support splitscreen
         "splitscreen": "0", 
-        // Whether the game supports drop-in/drop-out
+        // Support drop-in drop-out
         "dropindropout": "0", 
-        // Number of players in co-op play
+        // Support coop campaign
         "campaign": "0", 
         // List of notable features
         "featurelist": [ 
@@ -131,9 +131,9 @@ The flag list matches the following map
 ---
 # Some statistics
 
-Total number of products : `132764`  
+### Steam
 
-Number of games with co-optimus data : `2285`  
+Total number of products : `132764`  
 
 Number of games with tags : `117323`  
 
@@ -144,5 +144,13 @@ Number of games with flags : `110537`
 Number of games with errors : `12`  
 <sup><sup>*(When the script failed to fetch a unique appid data)*</sup></sup>
 
+### Co-optimus
 
+Number of games with co-optimus data : `2285`  
+
+Local player count values : `0,1,2,3,4,5,6,7,8,9,10,12`
+
+Online player count values : `0,2,3,4,5,6,7,8,9,10,11,12,14,16,20,24,26,30,32,35,64,100,255,500`
+
+LAN player count values : `0,2,3,4,5,6,7,8,10,11,12,14,16,20,24,30,32,35,64,255,256,500`
 
