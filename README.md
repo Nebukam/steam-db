@@ -7,11 +7,11 @@ It is meant to fuel the steam-game-finder web-app & browser extension, but since
 # Fetching individual app data
 Note that while you should not point directly to this repo to fetch data, a copy of it is cached in github pages :
 ```js
-`https://nebukam.github.io/steam/app/${appid}/infos.json`
+`https://nebukam.github.io/steam-db/app/${appid}/infos.json`
 ```
 
 ### Shout-out to Co-optimus
-__A bit short of 2500 products info include data fetched from [Co-optimus](https://www.co-optimus.com/), namely the known number of players allowed in different game-modes.__  
+__A bit short of 2500 products info include data fetched from [Co-optimus](https://www.co-optimus.com/), namely the known number of players allowed in different game-modes and some others goodies.__  
 A massive thank you to their team, without which the Steam game finder app would have much less immediate value as a tool to find relevant multiplayer games within a group of friends :)
 
 ---
