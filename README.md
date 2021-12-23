@@ -1,5 +1,5 @@
 # steam-db
-## :calendar: last update : __dec. 20, 2021__
+## :calendar: last update : __dec. 22, 2021__
 steam-db is a skimmed data dump of the [Steam](https://store.steampowered.com/) products.  *It doesn't include soundtracks, films, and some outlier products type are omitted as well.*  
 
 It is meant to fuel the steam-game-finder web-app & browser extension, but since all the data is publicly accessible I made it available.
@@ -126,6 +126,7 @@ The flag list matches the following map
     { flag: 44, id: `remote_play_together` },
     { flag: 30, id: `steam_workshop` },
     { flag: 32, id: `steam_turn_notification` },
+    // A few more, unlisted
 ]
 ```
 ---
@@ -133,20 +134,21 @@ The flag list matches the following map
 
 ### Steam
 
-Total number of products : `132764`  
+Total number of products : `132959`  
 
-Number of games with tags : `117323`  
+Number of games with tags : `117410`  
 
 Total number of unique tags : `426` [full list :eye_speech_bubble:](https://github.com/Nebukam/steam-db/blob/main/tags.json)
 
-Number of games with flags : `110537`  
+Number of games with flags : `119194`  
+Unique flags : `1,10,13,14,15,16,17,18,18,19,2,2,20,20,21,22,22,23,23,25,25,27,28,28,29,29,30,32,35,35,36,36,37,37,38,38,39,40,41,42,43,44,47,47,48,49,50,6,8,9,990,992,993,994`
 
-Number of games with errors : `12`  
+Number of games with errors : `11`  
 <sup><sup>*(When the script failed to fetch a unique appid data)*</sup></sup>
 
 ### Co-optimus
 
-Number of games with co-optimus data : `2285`  
+Number of games with co-optimus data : `2287`  
 
 Local player count values : `0,1,2,3,4,5,6,7,8,9,10,12`
 
