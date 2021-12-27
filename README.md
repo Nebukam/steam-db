@@ -1,5 +1,5 @@
 # steam-db
-## :calendar: last update : __dec. 22, 2021__
+## :calendar: last update : __dec. 26, 2021__
 steam-db is a skimmed data dump of the [Steam](https://store.steampowered.com/) products.  *It doesn't include soundtracks, films, and some outlier products type are omitted as well.*  
 
 It is meant to fuel the steam-game-finder web-app & browser extension, but since all the data is publicly accessible I made it available.

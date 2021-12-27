@@ -1,1 +1,1 @@
-{"appid":348290,"name":"Hospital Manager","parentappid":"","flags":[2],"tags":["Management","Simulation","Medical Sim","Casual"],"cooptimus":false}
+{"appid":348290,"name":"Hospital Manager","tags":["Management","Simulation","Medical Sim","Casual"],"flags":[2],"specs":{"storage":0.2},"parentappid":"","cooptimus":false}

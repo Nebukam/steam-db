@@ -1,1 +1,1 @@
-{"appid":1133450,"name":"Hexa Trains","parentappid":"","flags":[2,22,15,25],"tags":["Simulation","Trains","Hex Grid","Procedural Generation","Space"],"cooptimus":false}
+{"appid":1133450,"name":"Hexa Trains","tags":["Simulation","Trains","Hex Grid","Procedural Generation","Space"],"flags":[2,22,15,25],"specs":{"storage":0.12},"parentappid":"","cooptimus":false}
